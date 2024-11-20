@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #1F1C2C, #928DAB);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 768px;
+    background-color: rgba(255, 255, 255, 0.386);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    box-shadow: 0 2px 150px rgba(0, 0, 0, 0.456);
+    padding: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1F1C2C;
+  }
+
+  .json-editor{
+    margin-bottom: 5%;
+  }
+  
+  .json-editor textarea {
+    width: 100%;
+    height: 10rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #d1d5db;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .json-editor textarea:focus {
+    box-shadow: 0 0 0 2px rgba(67, 56, 202, 0.3);
+  }
+  
+  .json-editor .error {
+    text-align: center;
+    color: #740000;
+    margin-top: 0.5rem;
+  }
+  
+  .generated-form {
+    background-color: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4b5563;
+  }
+  
+  input,
+  textarea,
+  select,
+  button {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    outline: none;
+    box-shadow: 0 0 0 1px rgba(75, 85, 99, 0.1);
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    box-shadow: 0 0 0 2px rgba(67, 56, 202, 0.3);
+  }
+  
+  button {
+    background-color: #7b71aa;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #7467ac;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .radio-group input {
+    width: fit-content;
+    text-decoration: none;
+  }
+  
+  
